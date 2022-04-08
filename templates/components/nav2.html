@@ -13,11 +13,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/">Action</a></li>
-            <li><a class="dropdown-item" href="/">Another action</a></li>
-            <li><a class="dropdown-item" href="/">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="/">Separated link</a></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -26,6 +26,13 @@
         <li class="nav-item">
           <a class="nav-link disabled">Free Bitches</a>
         </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="{{ url_for('login') }}">Log In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('register') }}"">Sign Up</a>
+      </li>
       </ul>
     </header>
   </div>

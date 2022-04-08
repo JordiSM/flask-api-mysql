@@ -2,3 +2,4 @@
 /venv/lib64
 /venv/pyvenv.cfg
 /__pycache__
+*.txt
